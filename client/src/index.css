@@ -1,0 +1,23 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+:root {
+    --background-color: #efebe9;
+    --first-color: #8d6e63;
+    --second-color: #795548;
+    --card-color: #bcaaa4;
+    --error-color: #b71c1c;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    max-width: 100% !important;
+    margin: 0 !important;
+    width: 100% !important;
+}

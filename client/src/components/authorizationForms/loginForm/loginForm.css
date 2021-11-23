@@ -1,0 +1,61 @@
+input.validate + label {
+    color: var(--first-color) !important;
+}
+
+input.validate {
+    border-bottom: 1px solid var(--first-color) !important;
+}
+
+input.validate:focus + label {
+    color: var(--second-color) !important;
+}
+
+input.validate:focus {
+    border-bottom: 1px solid var(--second-color) !important;
+    box-shadow: 0 1px 0 0 var(--second-color) !important;
+}
+
+input.invalid + label {
+    color: var(--error-color) !important;
+}
+
+input.invalid {
+    border-bottom: 1px solid var(--error-color) !important;
+}
+
+input.invalid:focus + label {
+    color: var(--error-color) !important;
+}
+
+input.invalid:focus {
+    border-bottom: 1px solid var(--error-color) !important;
+    box-shadow: 0 1px 0 0 var(--error-color) !important;
+}
+
+.login-btn {
+    height: 35px;
+    width: 80px;
+}
+
+.authButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+    margin-top: 10px;
+}
+
+.drop-btn {
+    margin-left: 5px;
+    height: 35px;
+
+    background-color: var(--first-color) !important;
+}
+
+.drop-btn:hover {
+    /*background-color: var(--second-color) !important;*/
+}
+
+.drop-btn:hover::after {
+    content: attr(data-title);
+}

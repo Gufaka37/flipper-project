@@ -1,0 +1,29 @@
+.dropdownMenu {
+    display: flex !important;
+    flex-direction: column;
+    margin-top: 55px !important;
+    top: 0 !important;
+    background-color: var(--background-color);
+    width: 300px !important;
+    border: 3px solid var(--second-color);
+    border-radius: 5px;
+    /*height: 250px !important;*/
+    /*transition: height 0.3s;*/
+}
+
+.dropdownMenu_login {
+    height: 250px !important;
+    transition: height 0.3s;
+}
+
+.dropdownMenu_registration {
+    transition: height 0.3s;
+    height: 360px !important;
+}
+
+.dropdownMenu_profile {
+    transition: height 0.3s;
+    height: 100px !important;
+}
+
+/*FIXME: fix dropdown (transition)*/

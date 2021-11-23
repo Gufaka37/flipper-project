@@ -1,0 +1,70 @@
+.score-display {
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 100px;
+    height: 80px;
+    width: 800px;
+
+    border-radius: 10px;
+
+    background-color: var(--second-color);
+    padding: 5px !important;
+
+}
+
+.score-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 0 10px;
+}
+
+.score-block p {
+    padding-left: 5px;
+    color: #FFFFFF;
+    font-size: 30pt;
+    -webkit-user-select: none;
+}
+
+.small-dice {
+    align-self: center;
+    margin: 0;
+    width: 40px;
+    height:40px;
+}
+
+.small-dice .newColors path{
+    fill: var(--second-color);
+    stroke: #FFF;
+}
+
+.small-dice .newColors ellipse{
+    fill: #FFF;
+    stroke: #FFF;
+}
+
+.final-score {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 150px;
+    height: 100%;
+    background-color: var(--background-color);
+    border-radius: 5px;
+}
+
+.final-score p {
+    padding-left: 5px;
+    color: var(--first-color);
+    font-size: 30pt;
+    -webkit-user-select: none;
+}
+
+.no-padding {
+    padding: 0 !important;
+}

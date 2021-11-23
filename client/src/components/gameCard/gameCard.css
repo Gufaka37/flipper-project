@@ -1,0 +1,57 @@
+.gameCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 450px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 0;
+
+    background: var(--second-color);
+    overflow: hidden;
+
+    border: 5px solid var(--second-color);
+}
+
+.gameCard-image {
+    display: flex !important;
+    padding: 20px;
+    width: 100%;
+    height: 250px;
+}
+
+.gameCard-content {
+    display: flex;
+    border-top: 2px solid var(--second-color);
+    width: 100%;
+    height: 100% !important;
+    padding: 5px !important;
+}
+
+.gameCard-content span p {
+    font-size: 50pt;
+    color: white;
+}
+
+.gameCard img {
+    width: 100%;
+    height: 100%;
+}
+
+.gameCard-title p {
+    color: #FFFFFF;
+}
+
+.gameCard:hover .card-reveal {
+    display: block !important;
+    transform: translateY(-200%) !important;
+}
+
+.card-reveal {
+    display: block !important;
+    transform: translateY(-100%) !important;
+    transition: transform 0.4s !important;
+
+    border-radius: 5px;
+    background: var(--card-color) !important;
+}

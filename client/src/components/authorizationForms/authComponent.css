@@ -1,0 +1,11 @@
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--second-color);
+}
+
+.btn:hover {
+    background-color: var(--first-color);
+}

@@ -1,0 +1,79 @@
+.display {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.control-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.controlButton {
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 80px;
+    margin: 20px 10px 0 10px;
+
+    font-size: 25pt;
+    background-color: var(--second-color);
+}
+
+.controlButton_min {
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 80px;
+    margin-top: 20px;
+
+    font-size: 25pt;
+    background-color: var(--second-color);
+}
+
+.refreshButton {
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 10px;
+
+    font-size: 25pt;
+    background-color: var(--second-color);
+}
+
+.controlButton:hover {
+    background-color: var(--first-color);
+}
+
+.controlButton_min:hover {
+    background-color: var(--first-color);
+}
+
+.refreshButton:hover {
+    background-color: var(--first-color);
+}
+
+.control-buttons a {
+    font-size: 40px;
+}
+
+.refreshButton i {
+    font-size: 30px;
+}
+
+.flexBox {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
